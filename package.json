@@ -1,0 +1,25 @@
+{
+  "name": "chatgpt-plugin",
+  "version": "1.0.0",
+  "description": "Sample ChatGPT plugin",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anton10xr/node-chatgpt-plugin.git"
+  },
+  "author": "anton10xr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anton10xr/node-chatgpt-plugin/issues"
+  },
+  "homepage": "https://github.com/anton10xr/node-chatgpt-plugin#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-openapi": "^12.1.0"
+  }
+}
